@@ -1,7 +1,7 @@
 # ampub
 AmPub is a very simple framework to help abstract the specifics of publishing to some message broker. It provides a simple HTTP API server and you provide the provide the publishing implementation. Your client application can then communicate with the HTTP API without knowing the details about the implementation that was provided.
 
-The envisioned use case is for an ambassador/adaptor container in a composite-container deployment.
+The envisioned use case is for an [ambassador/adaptor](https://kubernetes.io/blog/2015/06/the-distributed-system-toolkit-patterns) container in a composite-container deployment.
 
 # Example
 ```go
